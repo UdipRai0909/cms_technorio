@@ -1,0 +1,242 @@
+/**************************** Radio Button ****************************************/
+.myCheckbox
+{
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/**************************** Label ****************************************/
+#labelCheck01
+{
+    margin-left: 10px;
+}
+
+/**************************** Logo Dashboard ****************************************/
+.img-fireProfile
+{
+    display: block;
+    height: auto;
+    border-radius: 50%;
+    max-width: 90%;
+}
+.row .col-4
+{
+    display: block;
+    height: 300px!important;
+    padding: 10px!important;
+}
+.img-savedPics
+{
+    width: 100%;
+    height: 100%;
+}
+
+/**************************** Logo Text ****************************************/
+.logo .logo-mini
+{
+    padding-top: 0!important;
+}
+.logo .logo-normal
+{
+    padding-top: 10px!important;
+    font-weight: bold!important;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+
+
+
+/**************************** Responsive Logo ****************************************/
+
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    .img-fireProfile
+    {
+        min-width: 100%;
+    }
+    .row .col-4
+    {
+        height: 240px!important;
+        padding: 7px!important;
+    }
+
+}
+
+@media screen and (max-width: 767px)
+{
+    .img-fireProfile
+    {
+        min-width: 100%;
+    }
+    .row .col-4
+    {
+        height: 175px!important;
+        padding: 5px!important;
+    }
+}
+
+@media screen and (max-width: 479px)
+{
+    .img-fireProfile
+    {
+        min-width: 100%;
+    }
+}
+
+/**************************** Navbar Section of welcome page ****************************************/
+.navbar-toggle a.navbar-brand
+{
+    color: hotpink!important;
+    border-top: 1px solid #fff;
+}
+
+.navbar-toggle a.navbar-brand:hover,
+.logo .logo-normal:hover
+{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    color: #ff0082!important;
+    -webkit-transition: prop;
+    -moz-transition: prop;
+    -ms-transition: prop time;
+    -o-transition: prop;
+    transition: smooth;
+}
+.logo .logo-normal:hover
+{
+    color: #000!important;
+}
+
+ul.nav li a:hover
+{
+    font-weight: bold;
+    /*font-size: 11px;*/
+}
+
+/**************************** Sidebar p of Dashboard ****************************************/
+ul.nav li a p:hover
+{
+    font-size: 11px;
+}
+
+li.dashboard>a
+{
+    color: #f04e4e!important;
+    -webkit-transition: prop;
+    -moz-transition: prop;
+    -ms-transition: prop time;
+    -o-transition: prop;
+    transition: smooth;
+}
+
+li.dashboard>a:hover:last-child
+{
+    color: #000!important;
+    font-weight: bold;
+}
+
+/**************************** Icons Section ****************************************/
+h3.card-title  i.tim-icons::before,
+.icon-trash-simple,
+.icon-pencil,
+.icon-image-02
+{
+    font-size: 20px;
+}
+
+.fa-angle-double-right
+{
+    width: 20px!important;
+    height: 30px!important;
+    font-size: 35px!important;
+    margin-right: 10px!important;
+    transition: ease-in-out!important;
+}
+
+/**************************** Edit and Trash buttons ****************************************/
+.table-hover td a.btn
+{
+    padding-left: 11%
+}
+
+/**************************** Overriding form control css ****************************************/
+.form-group select,
+label.hotpink
+{
+    color: hotpink;
+}
+
+/**************************** Overriding Summernote's css ****************************************/
+.note-editable p
+{
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.note-editor.note-frame .note-editing-area .note-editable
+{
+    background-color: #27293d!important;
+}
+.note-editor.note-frame
+{
+    border: none!important;
+}
+
+.note-editor.note-frame .note-statusbar .note-resizebar
+{
+    height: 0px!important;
+    padding-top: 1px!important;
+}
+.note-editor.note-frame .note-editing-area .note-editable {
+    height: 100px;
+}
+.note-toolbar
+{
+    border: none!important;
+    border-top: 1px solid #2b3553!important;
+}
+
+.note-popover .note-popover-content, .note-toolbar
+{
+    padding: 0 0 5px 13%!important;
+    background-color: transparent!important;
+}
+.note-btn
+{
+    border: 1px solid #dedede!important;
+    border-color: #dedede!important;
+}
+.note-frame p
+{
+    color: #a9a9b1!important;
+}
+
+
+.note-editor.note-frame .note-statusbar
+{
+
+    border-top: 1px solid #2b3553!important;
+}
+
+.note-editor.note-frame .note-statusbar
+{
+    background-color: transparent!important;
+}
+
+/**************************** Dashboard Content ****************************************/
+
+.col-lg-4 .card.card-chart:hover
+{
+    border: 1px solid #fff;
+}
+
+
+
